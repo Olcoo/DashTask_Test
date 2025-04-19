@@ -1,0 +1,68 @@
+import { Order } from "../store/slices/orders/types";
+
+export const orders: Order[] = [
+  {
+    id: '00001',
+    name: 'Christine Brooks',
+    address: '089 Kutch Green Apt. 448',
+    date: '14 Feb 2019',
+    type: 'Electric',
+    status: 'Completed',
+  },
+  {
+    id: '00002',
+    name: 'Rosie Pearson',
+    address: '979 Immanuel Ferry Suite 526',
+    date: '14 Feb 2019',
+    type: 'Book',
+    status: 'Processing',
+  },
+  {
+    id: '00003',
+    name: 'Darrell Caldwell',
+    address: '8587 Frida Ports',
+    date: '14 Feb 2019',
+    type: 'Medicine',
+    status: 'Rejected',
+  },
+  {
+    id: '00004',
+    name: 'Gilbert Johnston',
+    address: '768 Destiny Lake Suite 600',
+    date: '14 Feb 2019',
+    type: 'Mobile',
+    status: 'Completed',
+  },
+  {
+    id: '00005',
+    name: 'Alan Cain',
+    address: '042 Mylene Throughway',
+    date: '14 Feb 2019',
+    type: 'Watch',
+    status: 'Processing',
+  },
+  {
+    id: '00006',
+    name: 'Alfred Murray',
+    address: '543 Weinman Mountain',
+    date: '14 Feb 2019',
+    type: 'Medicine',
+    status: 'Completed',
+  },
+  {
+    id: '00007',
+    name: 'Alfreddd Murrayyyy',
+    address: '543 Weinman Mount',
+    date: '14 Feb 2020',
+    type: 'Medicine',
+    status: 'Completed',
+  },
+  {
+    id: '00008',
+    name: 'Alfreddd Murrayyyy',
+    address: '543 Weinman Mount',
+    date: '14 Feb 2020',
+    type: 'Medicine',
+    status: 'Completed',
+  },
+];
